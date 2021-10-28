@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+  @apply w-7 h-7;
+}
+
+.shadow-3xl {
+  -webkit-box-shadow: 0px 6px 8px -3px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 0px 6px 8px -3px rgba(0, 0, 0, 0.64);
+  box-shadow: 0px 6px 8px -3px rgba(0, 0, 0, 0.64);
+}
+
+.documentation {
+  background-image: url("./Assets/images/curved-images/white-curved.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(168, 168, 168);
+  border-radius: 10px;
+}
+.detail-second-content {
+  background-image: url(./Assets/images/ivancik.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
