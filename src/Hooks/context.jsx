@@ -7,8 +7,11 @@ export const useShownContext = () => {
 
 export const ShownContextProvider = ({ children }) => {
   const [isShown, setIsShown] = useState(false);
+  const [isSigned, setIsSigned] = useState(false);
   return (
-    <ShownContext.Provider value={{ isShown, setIsShown }}>
+    <ShownContext.Provider
+      value={{ isShown, setIsShown, isSigned, setIsSigned }}
+    >
       {children}
     </ShownContext.Provider>
   );

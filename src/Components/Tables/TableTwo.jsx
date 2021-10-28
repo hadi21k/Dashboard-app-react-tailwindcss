@@ -10,7 +10,7 @@ import TableTwoRow from "./TableTwoRow";
 
 const TableTwo = () => {
   return (
-    <div className="w-full mt-4 mb-4 overflow-x-auto">
+    <div className="w-full mb-4 overflow-x-auto">
       <table className="w-full bg-white rounded-xl">
         <thead>
           <tr>

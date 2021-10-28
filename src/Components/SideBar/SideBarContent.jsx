@@ -85,13 +85,25 @@ const SideBarContent = () => {
             </div>
             <h3 className="text-sm">Profile</h3>
           </li>
-          <li className="flex items-center w-full px-3 py-4 space-x-3 font-semibold transition-all duration-500 cursor-pointer rounded-xl group hover:bg-white">
+          <li
+            onClick={() => {
+              history.push("/sign-in");
+              setIsShown(false);
+            }}
+            className="flex items-center w-full px-3 py-4 space-x-3 font-semibold transition-all duration-500 cursor-pointer rounded-xl group hover:bg-white"
+          >
             <div className="flex items-center justify-center w-10 h-10 transition-all duration-500 bg-white shadow-3xl group-hover:text-white group-hover:bg-blue-600 rounded-xl">
               <UserIcon className="w-5 h-5" />
             </div>
             <h3 className="text-sm">Sign In</h3>
           </li>
-          <li className="flex items-center w-full px-3 py-4 space-x-3 font-semibold transition-all duration-500 cursor-pointer rounded-xl group hover:bg-white">
+          <li
+            onClick={() => {
+              history.push("/sign-up");
+              setIsShown(false);
+            }}
+            className="flex items-center w-full px-3 py-4 space-x-3 font-semibold transition-all duration-500 cursor-pointer rounded-xl group hover:bg-white"
+          >
             <div className="flex items-center justify-center w-10 h-10 transition-all duration-500 bg-white shadow-3xl group-hover:text-white group-hover:bg-blue-600 rounded-xl">
               <UserAddIcon className="w-5 h-5" />
             </div>

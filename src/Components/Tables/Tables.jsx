@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../Dashboard/Header/Header";
 import TableOne from "./TableOne";
 import TableTwo from "./TableTwo";

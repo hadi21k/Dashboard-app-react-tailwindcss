@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { HomeIcon } from "@heroicons/react/solid";
 import HeaderForm from "./HeaderForm";
 import {
@@ -12,13 +12,14 @@ import { useShownContext } from "../../../Hooks/context";
 import NotificationSection from "./NotificationSection";
 
 const Header = ({ sectionName }) => {
+  const { isSigned } = useShownContext();
   const { isShown, setIsShown } = useShownContext();
   const [showNoti, setShowNoti] = useState(false);
   const makeShowNoti = () => {
     setShowNoti((prevShow) => !prevShow);
   };
   return (
-    <div className="bg-white min-h-[92px] rounded-xl shadow-lg relative">
+    <div className="min-h-[92px] relative bg-white rounded-xl shadow-lg">
       <div className="flex flex-col items-start justify-between h-full px-4 py-6 space-y-4 sm:space-y-0 sm:items-center sm:flex-row ">
         <div className="flex flex-col space-y-1 title">
           <div className="flex items-center space-x-[3px]">
@@ -34,7 +35,9 @@ const Header = ({ sectionName }) => {
           <div className="flex items-center space-x-[15px] ml-1">
             <div className="md:flex hidden items-center space-x-[1px] cursor-pointer transition-all duration-500 transform hover:-translate-x-1 signin">
               <UserCircleIcon className="w-5 h-5 text-gray-700 " />
-              <h3 className="text-sm font-semibold text-gray-700">Sign in</h3>
+              <h3 className="text-sm font-semibold text-gray-700">
+                {isSigned ? "Sign out" : "Sign in"}
+              </h3>
             </div>
             <div className="flex items-center space-x-2">
               {isShown ? (
