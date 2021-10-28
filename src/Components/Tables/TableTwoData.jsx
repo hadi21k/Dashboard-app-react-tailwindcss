@@ -9,6 +9,7 @@ export const firstRowData = {
   text: "Spotify",
   price: 2500,
   status: "working",
+  width:"67%"
 };
 
 export const secondRowData = {
@@ -16,6 +17,7 @@ export const secondRowData = {
   text: "Adobe XD",
   price: 2300,
   status: "done",
+  width:"100%"
 };
 
 export const thirdRowData = {
@@ -23,6 +25,7 @@ export const thirdRowData = {
   text: "Slack",
   price: 5000,
   status: "canceled",
+  width:"56%"
 };
 
 export const fourthRowData = {
@@ -30,6 +33,7 @@ export const fourthRowData = {
   text: "Webdev",
   price: 13000,
   status: "waiting",
+  width:"0%"
 };
 
 export const fifthRowData = {
@@ -37,6 +41,7 @@ export const fifthRowData = {
   text: "Invision",
   price: 3500,
   status: "done",
+  width:"100%"
 };
 
 export const sixthRowData = {
@@ -44,4 +49,5 @@ export const sixthRowData = {
   text: "Atlassian",
   price: 7700,
   status: "working",
+  width:"3%"
 };

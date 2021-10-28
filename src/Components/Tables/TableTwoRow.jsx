@@ -1,5 +1,5 @@
 import { DotsVerticalIcon } from "@heroicons/react/solid";
-const TableTwoRow = ({ img, price, text, status }) => {
+const TableTwoRow = ({ img, price, text, status, width }) => {
   return (
     <tr>
       <td className="px-6 py-2">
@@ -19,14 +19,18 @@ const TableTwoRow = ({ img, price, text, status }) => {
         <h3 className="mr-6 text-xs font-bold text-gray-600">{status}</h3>
       </td>
       <td>
-        <div className="grid mr-6 place-items-center">
-          <div className="h-[4px] relative w-[50%] rounded-xl bg-gray-300">
-            <span className="absolute inset-0 w-[50%] h-full bg-[#00cc00] rounded-xl"></span>
+        <div className="flex flex-col items-start justify-center mr-6">
+          <h3 className="text-sm font-semibold text-gray-600">{width}</h3>
+          <div className="h-[4px] w-full relative rounded-xl bg-gray-300">
+            <span
+              style={{ width: width }}
+              className="absolute inset-0 h-full bg-[#00cc00] rounded-xl"
+            ></span>
           </div>
         </div>
       </td>
       <td>
-        <h3 className="px-3">
+        <h3 className="px-3 cursor-pointer">
           <DotsVerticalIcon className="w-5 h-5 text-gray-500" />
         </h3>
       </td>
