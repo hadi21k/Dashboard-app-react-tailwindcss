@@ -1,6 +1,4 @@
-import React from "react";
 import DetailContent from "./DetailContent";
-
 import DetailSecondContent from "./DetailSecondContent";
 
 const DetailMainSection = () => {

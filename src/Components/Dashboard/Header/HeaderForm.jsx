@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 
 const HeaderForm = () => {
   const inputRef = useRef();

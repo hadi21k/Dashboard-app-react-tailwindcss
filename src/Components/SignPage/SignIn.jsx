@@ -1,5 +1,4 @@
-import { ArrowLeftIcon } from "@heroicons/react/solid";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { useHistory } from "react-router";
 import { useShownContext } from "../../Hooks/context";
 import { useDefaultFocus, useFocus } from "../../Hooks/useFocus";

@@ -1,5 +1,3 @@
-import React from "react";
-
 const OrderContent = ({ icon, text, date }) => {
   return (
     <div className="flex items-center space-x-3">

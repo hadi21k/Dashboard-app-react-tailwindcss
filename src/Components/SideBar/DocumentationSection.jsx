@@ -1,4 +1,3 @@
-import React from "react";
 import { StarIcon } from "@heroicons/react/outline";
 const DocumentationSection = () => {
   return (

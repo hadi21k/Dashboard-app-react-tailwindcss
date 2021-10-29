@@ -1,4 +1,3 @@
-import React from "react";
 import { useShownContext } from "../../Hooks/context";
 import SideBarContent from "./SideBarContent";
 const SideBar = () => {

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import IvanaSquare from "../../../Assets/images/ivana-square.jpg";
 import { ClockIcon } from "@heroicons/react/solid";
 const NotificationSection = ({ showNoti }) => {
@@ -22,7 +21,9 @@ const NotificationSection = ({ showNoti }) => {
             </h3>
             <div className="flex items-center space-x-2">
               <ClockIcon className="w-5 h-5 text-gray-600" />
-              <div className="text-sm font-semibold text-gray-600">13 minutes ago</div>
+              <div className="text-sm font-semibold text-gray-600">
+                13 minutes ago
+              </div>
             </div>
           </div>
         </div>

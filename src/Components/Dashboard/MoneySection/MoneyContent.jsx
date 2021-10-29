@@ -1,4 +1,3 @@
-import React from "react";
 import MoneySection from "./MoneySection";
 import {
   CashIcon,

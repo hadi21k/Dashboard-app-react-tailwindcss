@@ -1,4 +1,3 @@
-import React from "react";
 import { useHistory } from "react-router";
 import { useShownContext } from "../../Hooks/context";
 import { CubeTransparentIcon, XIcon } from "@heroicons/react/solid";

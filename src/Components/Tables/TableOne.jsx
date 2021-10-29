@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Squares from "../../Assets/images/marie.jpg";
 import TableRow from "./TableRow";
 const TableOne = () => {

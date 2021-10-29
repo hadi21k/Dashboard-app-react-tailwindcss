@@ -1,4 +1,3 @@
-import React from "react";
 import Rocket from "../../../Assets/images/illustrations/rocket-white.png";
 import ReadMoreComp from "./ReadMoreComp";
 const DetailContent = () => {

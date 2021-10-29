@@ -6,9 +6,9 @@ import { useShownContext } from "../../Hooks/context";
 const SignUp = () => {
   const { setIsSigned } = useShownContext();
   const history = useHistory();
-  const [firstName, firstNameBind, resetFirstName] = useInput();
-  const [userName, userNameBind, resetUserName] = useInput();
-  const [email, emailBind, resetEmail] = useInput();
+  const [firstNameBind, resetFirstName] = useInput();
+  const [userNameBind, resetUserName] = useInput();
+  const [emailBind, resetEmail] = useInput();
   const [password, passwordBind, resetPassword] = useInput();
   const firstNameRef = useRef();
   const userNameRef = useRef();
