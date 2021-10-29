@@ -2,9 +2,6 @@ import React, { useRef, useEffect } from "react";
 
 const HeaderForm = () => {
   const inputRef = useRef();
-  useEffect(() => {
-    inputRef.current.focus();
-  });
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(inputRef.current.value);
