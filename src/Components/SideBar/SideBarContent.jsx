@@ -54,24 +54,6 @@ const SideBarContent = () => {
           </div>
           <h3 className="text-sm">Tables</h3>
         </li>
-        <li className="flex items-center px-5 py-3 space-x-4 font-semibold transition-all duration-500 cursor-pointer group hover:bg-white rounded-xl">
-          <div className="flex items-center justify-center w-10 h-10 text-gray-700 transition-all duration-500 bg-white shadow-3xl group-hover:text-white group-hover:bg-blue-600 rounded-xl">
-            <CreditCardIcon className="w-5 h-5" />
-          </div>
-          <h3 className="text-sm">Billing</h3>
-        </li>
-        <li className="flex items-center px-5 py-3 space-x-4 font-semibold transition-all duration-500 cursor-pointer group hover:bg-white rounded-xl">
-          <div className="flex items-center justify-center w-10 h-10 text-gray-700 transition-all duration-500 bg-white shadow-3xl group-hover:text-white group-hover:bg-blue-600 rounded-xl">
-            <PuzzleIcon className="w-5 h-5" />
-          </div>
-          <h3 className="text-sm">Virtual Reality</h3>
-        </li>
-        <li className="flex items-center px-5 py-3 space-x-4 font-semibold transition-all duration-500 cursor-pointer group hover:bg-white rounded-xl">
-          <div className="flex items-center justify-center w-10 h-10 text-gray-700 transition-all duration-500 bg-white shadow-3xl group-hover:text-white group-hover:bg-blue-600 rounded-xl">
-            <ShieldCheckIcon className="w-5 h-5" />
-          </div>
-          <h3 className="text-sm">RTL</h3>
-        </li>
       </ul>
       <div className="px-4 acount-page">
         <div>
