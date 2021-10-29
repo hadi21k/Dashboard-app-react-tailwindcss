@@ -12,7 +12,7 @@ const HeaderForm = () => {
         ref={inputRef}
         type="text"
         placeholder="Type Here"
-        className="h-full px-2 py-3 font-semibold text-gray-700 placeholder-gray-700 transition-all duration-500 border border-gray-400 rounded-lg outline-none focus:px-4 "
+        className="h-full px-2 py-3 font-semibold text-gray-700 placeholder-gray-700 transition-all duration-500 border border-gray-400 rounded-lg outline-none focus:px-1 "
       />
     </form>
   );
