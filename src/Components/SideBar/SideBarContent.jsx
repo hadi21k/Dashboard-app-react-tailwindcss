@@ -60,12 +60,6 @@ const SideBarContent = () => {
           <h3 className="text-base text-gray-500">Account Page</h3>
         </div>
         <ul className="flex flex-col mt-2 space-y-2 list-none links">
-          <li className="flex items-center w-full px-3 py-4 space-x-3 font-semibold transition-all duration-500 cursor-pointer rounded-xl group hover:bg-white">
-            <div className="flex items-center justify-center w-10 h-10 transition-all duration-500 bg-white shadow-3xl group-hover:text-white group-hover:bg-blue-600 rounded-xl">
-              <UserCircleIcon className="w-5 h-5" />
-            </div>
-            <h3 className="text-sm">Profile</h3>
-          </li>
           <li
             onClick={() => {
               history.push("/sign-in");
